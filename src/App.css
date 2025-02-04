@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+.item {
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.modal {
+  padding: 100px;
+  border: 1px solid green;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: azure;
+}
+.modal input {
+  width: 300px;
+  display: block;
+  margin-top: 10px;
+}
+.btns {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
