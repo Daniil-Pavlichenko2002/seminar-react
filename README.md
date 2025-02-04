@@ -1,8 +1,12 @@
 # React + TypeScript + Vite
 Сервер запускается командой:
+```js
 json-server --watch db.json
-Приложение запускается командой: 
+```
+Приложение запускается командой:
+```js
 npm run dev
+```
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
